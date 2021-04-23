@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">FRIENDS</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">Grey's Anatomy</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">Brooklyn 99</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">The Office</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">Suits</span>
+    </div>
+    
+  </div>
+
+  <audio data-key="65" src="resources/Friends.mp3"></audio>
+  <audio data-key="83" src="resources/Grey.mp3"></audio>
+  <audio data-key="68" src="resources/brk99.mp3"></audio>
+  <audio data-key="70" src="resources/Office.mp3"></audio>
+  <audio data-key="71" src="resources/Suits.mp3"></audio>
+
+<script src="app.js">
+</script>
+
+
+</body>
+</html>
